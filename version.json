@@ -4,7 +4,7 @@
   
   "android": {
     "min_version": "1.0.31",
-    "latest_version": "1.0.31"
+    "latest_version": "1.0.32"
   },
   "ios": {
     "min_version": "1.0.31",
