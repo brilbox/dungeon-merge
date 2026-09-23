@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "announcements": [
+    {
+      "id": "notice-20260922151441",
+      "revision": 1,
+      "attention_revision": 1,
+      "published_at": "2026-09-22T15:14:41Z",
+      "enabled": false,
+      "priority": 0,
+      "display_policy": "manual",
+      "frequency": "session",
+      "featured": false,
+      "platforms": [],
+      "locales": {
+        "en": {
+          "title": "1111",
+          "body": "11111"
+        },
+        "ko": {
+          "title": "1123",
+          "body": "123123123"
+        },
+        "ja": {},
+        "zh_CN": {},
+        "zh_TW": {},
+        "de": {},
+        "fr": {},
+        "es": {}
+      },
+      "action": {
+        "type": "open_shop",
+        "section_id": "hero_pack"
+      }
+    },
+    {
+      "id": "notice-20260922154423",
+      "revision": 1,
+      "attention_revision": 1,
+      "published_at": "2026-09-22T15:44:23Z",
+      "enabled": false,
+      "priority": 0,
+      "display_policy": "manual",
+      "frequency": "session",
+      "featured": false,
+      "platforms": [],
+      "locales": {
+        "en": {
+          "title": "3333",
+          "body": "3333"
+        },
+        "ko": {
+          "title": "123213",
+          "body": "3213123"
+        }
+      }
+    }
+  ]
+}
