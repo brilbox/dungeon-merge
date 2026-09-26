@@ -29,8 +29,7 @@
       "ends_at": "2026-10-31T00:00:00Z",
       "enabled": true,
       "priority": 90,
-      "display_policy": "auto",
-      "frequency": "require_ack",
+      "display_policy": "require_ack",
       "featured": true,
       "hide_if_owned_product": "com.brilbox.dmerge.hero_unlock_pack",
       "locales": {
