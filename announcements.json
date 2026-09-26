@@ -2,10 +2,10 @@
   "schema_version": 1,
   "announcements": [
     {
-      "id": "notice-20260922151441",
+      "id": "notice-20260926134746",
       "revision": 1,
       "attention_revision": 1,
-      "published_at": "2026-09-22T15:14:41Z",
+      "published_at": "2026-09-26T13:47:46Z",
       "enabled": true,
       "priority": 0,
       "display_policy": "manual",
@@ -14,44 +14,36 @@
       "platforms": [],
       "locales": {
         "en": {
-          "title": "1111",
-          "body": "11111"
+          "title": "1.0.37 Update — Weekly Challenge Is Here!",
+          "body": "Discover new strategies under rules that change every week, and push for a new personal best!\n\n• Weekly Challenge\nTake on weekly Grand Pacts and Trials, and compete with fellow adventurers for the best record. Complete the base Campaign once to unlock this mode.\n\n• The Adventure Continues in Endless Battle\nClear the final region of a Challenge to enter Endless Battle. Keep growing, regroup between battles, and see how long you can survive!\n\n• Shorter, More Focused Adventures\nEach region now consists of 10 regular floors and a boss floor. Starting decks and progression have also been adjusted.\n\n• Separate Campaign and Challenge Saves\nTry a Challenge without giving up your ongoing Campaign. Save and resume each adventure separately.\n\n• New Skills and Gameplay Improvements\nAdded “Golden Miracle” and “Mana Loan.” We’ve also rebalanced various skills and events, improved combat controls and UI clarity, and made resuming adventures and signing in more reliable.\n\nHead to the lobby and discover the new Challenge!"
         },
         "ko": {
-          "title": "1123",
-          "body": "123123123"
+          "title": "1.0.37 업데이트 — 주간 챌린지 오픈!",
+          "body": "매주 달라지는 규칙 속에서 나만의 전략을 찾고, 새로운 기록에 도전해 보세요!\n\n• 주간 챌린지 추가\n매주 바뀌는 대계약과 시련을 공략하고 다른 모험가들과 기록을 겨뤄보세요. 기본 캠페인을 한 번 완료하면 참여할 수 있습니다.\n\n• 끝없는 도전, 무한전장\n챌린지의 마지막 지역을 돌파하면 무한전장이 시작됩니다. 성장과 정비를 활용해 더 오래 살아남아 보세요!\n\n• 더 짧고 밀도 있는 모험\n각 지역을 일반 10층과 보스층으로 구성하고, 시작 덱과 성장 흐름을 함께 조정했습니다.\n\n• 캠페인과 챌린지 별도 이어하기\n진행 중인 캠페인을 남겨둔 채 챌린지에 도전할 수 있습니다. 두 모험을 각각 저장하고 이어서 즐겨보세요.\n\n• 신규 스킬 및 플레이 개선\n‘황금빛 기적’과 ‘마나 대출’ 스킬을 추가했습니다. 여러 스킬과 이벤트의 밸런스를 조정하고, 전투 조작과 화면 표시, 이어하기 및 로그인 안정성을 개선했습니다.\n\n로비에서 새롭게 열린 챌린지를 확인해 보세요!"
         },
-        "ja": {},
-        "zh_CN": {},
-        "zh_TW": {},
-        "de": {},
-        "fr": {},
-        "es": {}
-      },
-      "action": {
-        "type": "open_shop",
-        "section_id": "hero_pack"
-      }
-    },
-    {
-      "id": "notice-20260922154423",
-      "revision": 1,
-      "attention_revision": 1,
-      "published_at": "2026-09-22T15:44:23Z",
-      "enabled": true,
-      "priority": 0,
-      "display_policy": "manual",
-      "frequency": "session",
-      "featured": false,
-      "platforms": [],
-      "locales": {
-        "en": {
-          "title": "3333",
-          "body": "3333"
+        "ja": {
+          "title": "1.0.37アップデート — 週間チャレンジ開幕！",
+          "body": "毎週変わるルールの中で自分だけの戦略を見つけ、新たな記録に挑戦しましょう！\n\n• 週間チャレンジが登場\n毎週変わる大契約と試練を攻略し、ほかの冒険者たちと記録を競いましょう。通常のキャンペーンを一度クリアすると参加できます。\n\n• 終わりなき挑戦、無限戦場\nチャレンジの最終エリアを突破すると、無限戦場が始まります。成長と戦闘の合間の準備を活かして、より長く生き残りましょう！\n\n• より短く、充実した冒険\n各エリアを通常の10フロアとボスフロアで構成し、初期デッキと成長の流れも調整しました。\n\n• キャンペーンとチャレンジを個別に再開\n進行中のキャンペーンを残したまま、チャレンジに挑戦できます。それぞれの冒険を保存し、個別に続きを楽しめます。\n\n• 新スキルとプレイ体験の改善\n「黄金の奇跡」と「マナ借入」を追加しました。各種スキルやイベントのバランスを調整し、戦闘操作や画面表示、冒険の再開とログインの安定性を改善しました。\n\nロビーで新たなチャレンジをチェックしましょう！"
         },
-        "ko": {
-          "title": "123213",
-          "body": "3213123"
+        "zh_CN": {
+          "title": "1.0.37更新——每周挑战开启！",
+          "body": "在每周变化的规则中找到自己的策略，向新的纪录发起挑战！\n\n• 新增每周挑战\n攻克每周变化的大契约与试炼，与其他冒险者一较高下。完成一次基础战役后即可参与。\n\n• 挑战永不止步，无限战场\n通关挑战的最后一个区域后，即可进入无限战场。利用成长与休整，努力生存得更久！\n\n• 更紧凑、更充实的冒险\n每个区域调整为10个普通楼层和1个首领楼层，同时调整了初始牌组与成长节奏。\n\n• 战役与挑战分别续玩\n保留当前战役进度的同时，也能开启挑战。两种冒险分别保存，随时继续各自的旅程。\n\n• 新增技能与体验优化\n新增“黄金奇迹”和“法力贷款”技能。调整了多项技能与事件的平衡性，并优化了战斗操作、界面显示，以及续玩和登录的稳定性。\n\n前往大厅，体验全新的挑战吧！"
+        },
+        "zh_TW": {
+          "title": "1.0.37 更新——每週挑戰登場！",
+          "body": "在每週變化的規則中找出自己的策略，挑戰全新的紀錄！\n\n• 新增每週挑戰\n攻略每週變換的大契約與試煉，與其他冒險者一較高下。完成一次基本戰役後即可參加。\n\n• 永無止境的挑戰，無限戰場\n通過挑戰的最後一個區域後，即可進入無限戰場。善用成長與整備，努力存活得更久！\n\n• 更精簡、更充實的冒險\n每個區域調整為10個一般樓層與1個Boss樓層，並同步調整初始牌組與成長節奏。\n\n• 戰役與挑戰分別續玩\n保留目前的戰役進度，也能同時展開挑戰。兩種冒險分別儲存，隨時繼續各自的旅程。\n\n• 新增技能與遊戲體驗改善\n新增「黃金奇蹟」與「魔力貸款」技能。調整多項技能與事件的平衡性，並改善戰鬥操作、畫面顯示，以及續玩與登入的穩定性。\n\n快到大廳看看全新的挑戰吧！"
+        },
+        "de": {
+          "title": "Update 1.0.37 — Die wöchentliche Herausforderung ist da!",
+          "body": "Entdecke neue Strategien unter wöchentlich wechselnden Regeln und stelle einen neuen persönlichen Rekord auf!\n\n• Neue wöchentliche Herausforderung\nMeistere wechselnde Großpakte und Prüfungen und miss dich mit anderen Abenteurern. Nach deinem ersten Abschluss der normalen Kampagne kannst du teilnehmen.\n\n• Die Reise geht im Endloskampf weiter\nNach dem letzten Gebiet einer Herausforderung beginnt der Endloskampf. Werde stärker, bereite dich zwischen den Kämpfen vor und finde heraus, wie lange du überleben kannst!\n\n• Kürzere, abwechslungsreiche Abenteuer\nJedes Gebiet besteht jetzt aus 10 normalen Ebenen und einer Boss-Ebene. Auch die Startdecks und der Fortschritt wurden angepasst.\n\n• Kampagne und Herausforderung getrennt fortsetzen\nStarte eine Herausforderung, ohne deine laufende Kampagne aufzugeben. Beide Abenteuer werden getrennt gespeichert und können unabhängig fortgesetzt werden.\n\n• Neue Fertigkeiten und Verbesserungen\n„Goldenes Wunder“ und „Manadarlehen“ wurden hinzugefügt. Außerdem haben wir die Balance verschiedener Fertigkeiten und Ereignisse angepasst, die Kampfsteuerung und Bildschirmanzeigen verbessert sowie das Fortsetzen von Abenteuern und die Anmeldung stabiler gemacht.\n\nEntdecke die neue Herausforderung in der Lobby!"
+        },
+        "fr": {
+          "title": "Mise à jour 1.0.37 — Le Défi hebdomadaire est arrivé !",
+          "body": "Découvrez de nouvelles stratégies avec des règles qui changent chaque semaine et tentez de battre votre record !\n\n• Nouveau Défi hebdomadaire\nSurmontez des Grands pactes et des Épreuves qui changent chaque semaine, et mesurez vos records à ceux des autres aventuriers. Terminez une fois la Campagne normale pour y participer.\n\n• L’aventure continue dans le Combat sans fin\nAprès la dernière région d’un Défi, le Combat sans fin commence. Renforcez-vous, préparez-vous entre les combats et tentez de survivre toujours plus longtemps !\n\n• Des aventures plus courtes et plus intenses\nChaque région comprend désormais 10 étages ordinaires et un étage de boss. Les decks de départ et la progression ont également été ajustés.\n\n• Des sauvegardes séparées pour la Campagne et le Défi\nLancez un Défi tout en conservant votre Campagne en cours. Chaque aventure dispose de sa propre sauvegarde et peut être reprise séparément.\n\n• Nouvelles compétences et améliorations\nAjout de « Miracle doré » et de « Prêt de mana ». Nous avons également rééquilibré plusieurs compétences et événements, amélioré les commandes de combat et l’affichage, et renforcé la fiabilité de la reprise des aventures et de la connexion.\n\nRendez-vous dans le hall pour découvrir le nouveau Défi !"
+        },
+        "es": {
+          "title": "Actualización 1.0.37 — ¡Llega el Desafío semanal!",
+          "body": "¡Descubre nuevas estrategias con reglas que cambian cada semana y supera tu mejor marca!\n\n• Nuevo Desafío semanal\nSupera Grandes pactos y Pruebas que cambian cada semana, y compite con otros aventureros por la mejor marca. Completa la Campaña normal una vez para participar.\n\n• La aventura continúa en el Combate infinito\nTras superar la última región de un Desafío, comienza el Combate infinito. ¡Hazte más fuerte, prepárate entre combates y descubre cuánto tiempo puedes sobrevivir!\n\n• Aventuras más cortas e intensas\nCada región ahora consta de 10 pisos normales y un piso de jefe. También hemos ajustado los mazos iniciales y la progresión.\n\n• Campaña y Desafío con partidas separadas\nInicia un Desafío sin perder tu Campaña en curso. Guarda y retoma cada aventura por separado.\n\n• Nuevas habilidades y mejoras\nHemos añadido «Milagro dorado» y «Préstamo de maná». También hemos ajustado el equilibrio de varias habilidades y eventos, mejorado los controles de combate y la información en pantalla, y aumentado la estabilidad al reanudar partidas e iniciar sesión.\n\n¡Visita el vestíbulo y descubre el nuevo Desafío!"
         }
       }
     }
