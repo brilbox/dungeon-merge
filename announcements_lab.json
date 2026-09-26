@@ -2,56 +2,286 @@
   "schema_version": 1,
   "announcements": [
     {
-      "id": "notice-20260922151441",
+      "id": "test-required-notice-20260926",
       "revision": 1,
       "attention_revision": 1,
-      "published_at": "2026-09-22T15:14:41Z",
+      "published_at": "2026-09-25T00:00:00Z",
+      "ends_at": "2026-10-31T00:00:00Z",
       "enabled": true,
-      "priority": 0,
-      "display_policy": "manual",
-      "frequency": "session",
-      "featured": false,
-      "platforms": [],
+      "priority": 100,
+      "display_policy": "require_ack",
       "locales": {
         "en": {
-          "title": "1111",
-          "body": "11111"
+          "title": "[TEST] Important notice before your adventure",
+          "body": "Adventurers, please read this notice before continuing.\n\nThis sample tests a notice that requires acknowledgement. No maintenance, account changes, or gameplay restrictions are actually applied.\n\nTap Confirm to continue. Tapping the background or using the back button should not close this notice."
         },
         "ko": {
-          "title": "1123",
-          "body": "123123123"
-        },
-        "ja": {},
-        "zh_CN": {},
-        "zh_TW": {},
-        "de": {},
-        "fr": {},
-        "es": {}
-      },
-      "action": {
-        "type": "open_shop",
-        "section_id": "hero_pack"
+          "title": "[테스트] 모험 시작 전 꼭 확인해 주세요",
+          "body": "모험가 여러분, 던전에 입장하기 전 안내 내용을 확인해 주세요.\n\n이 공지는 필수 확인 팝업을 테스트하기 위한 예제입니다. 실제 점검이나 계정 변경, 게임 이용 제한은 진행되지 않습니다.\n\n아래 확인 버튼을 눌러 안내를 마칠 수 있습니다. 배경을 누르거나 뒤로가기를 사용해도 공지가 닫히지 않는지 확인해 주세요."
+        }
       }
     },
     {
-      "id": "notice-20260922154423",
+      "id": "test-daily-hero-pack-20260926",
       "revision": 1,
       "attention_revision": 1,
-      "published_at": "2026-09-22T15:44:23Z",
+      "published_at": "2026-09-25T00:00:00Z",
+      "ends_at": "2026-10-31T00:00:00Z",
       "enabled": true,
-      "priority": 0,
-      "display_policy": "manual",
-      "frequency": "session",
-      "featured": false,
-      "platforms": [],
+      "priority": 90,
+      "display_policy": "auto",
+      "frequency": "daily",
+      "featured": true,
+      "hide_if_owned_product": "com.brilbox.dmerge.hero_unlock_pack",
       "locales": {
         "en": {
-          "title": "3333",
-          "body": "3333"
+          "title": "[TEST] Meet your next dungeon companion",
+          "body": "A new party begins with a new hero. Visit the shop to explore the Hero Pack and find your next dungeon companion.\n\nThis notice tests the featured banner, image display, shop navigation, and automatic display at intervals of at least 24 hours.\n\nOwning the Hero Pack hides its automatic popup and featured banner, while keeping the notice in the news list.",
+          "image": "https://brilbox.github.io/dungeon-merge/announcements/hero-pack/banner.en.v1.png"
         },
         "ko": {
-          "title": "123213",
-          "body": "3213123"
+          "title": "[테스트] 다음 모험을 함께할 영웅을 만나보세요",
+          "body": "새로운 영웅과 함께 색다른 조합을 만들어 보세요. 상점에서 영웅팩의 구성과 자세한 내용을 확인할 수 있습니다.\n\n대표 배너, 이미지 표시, 상점 이동, 마지막 자동 노출로부터 24시간 간격의 재노출을 확인하는 공지입니다.\n\n영웅팩을 보유한 경우 자동 팝업과 대표 배너에서는 제외되며, 소식 목록에서는 계속 확인할 수 있습니다."
+        }
+      },
+      "action": {
+        "type": "open_shop",
+        "section_id": "hero_pack",
+        "product_id": "com.brilbox.dmerge.hero_unlock_pack",
+        "label": {
+          "en": "View Hero Pack",
+          "ko": "영웅팩 살펴보기"
+        }
+      }
+    },
+    {
+      "id": "test-session-external-link-20260926",
+      "revision": 1,
+      "attention_revision": 1,
+      "published_at": "2026-09-25T00:00:00Z",
+      "ends_at": "2026-10-31T00:00:00Z",
+      "enabled": true,
+      "priority": 80,
+      "display_policy": "auto",
+      "frequency": "session",
+      "locales": {
+        "en": {
+          "title": "[TEST] Take a short break between adventures",
+          "body": "Your next adventure can wait a moment. Take a look around the Steam store during your break.\n\nThe button opens the Steam home page for testing; it does not point to a Dungeon Merge product page.\n\nReturn to the game and confirm that this notice remains open. This notice can appear again in a new app session unless you select the option to hide it, subject to automatic notice priority."
+        },
+        "ko": {
+          "title": "[테스트] 모험 사이, 잠깐의 쉬어 가기",
+          "body": "다음 던전으로 떠나기 전 잠시 쉬어 가세요. 아래 버튼으로 Steam 상점을 둘러볼 수 있습니다.\n\n외부 링크 테스트를 위해 Steam 첫 화면으로 연결됩니다. 던전 머지의 실제 상품 페이지로 연결되는 것은 아닙니다.\n\n게임으로 돌아왔을 때 공지가 유지되는지 확인해 주세요. 다시 보지 않기를 선택하지 않았다면, 자동 공지 우선순위에 따라 앱을 새로 실행할 때 다시 표시될 수 있습니다."
+        }
+      },
+      "action": {
+        "type": "open_url",
+        "url": "https://store.steampowered.com/",
+        "urls": {
+          "en": "https://store.steampowered.com/?l=english",
+          "ko": "https://store.steampowered.com/?l=koreana"
+        },
+        "label": {
+          "en": "Open Steam",
+          "ko": "Steam 둘러보기"
+        }
+      }
+    },
+    {
+      "id": "test-manual-long-update-20260926",
+      "revision": 1,
+      "attention_revision": 1,
+      "published_at": "2026-09-25T00:00:00Z",
+      "ends_at": "2026-10-31T00:00:00Z",
+      "enabled": true,
+      "priority": 70,
+      "display_policy": "manual",
+      "locales": {
+        "en": {
+          "title": "[TEST] Adventure journal: a long update notice for checking wrapping and scrolling",
+          "body": "Welcome, adventurers!\n\nThis is a sample update notice for testing long text. The changes below are fictional and do not describe an actual release.\n\n1. Preparing for the dungeon\nA great adventure begins before the first battle. Review your party, consider how your heroes work together, and choose the companions you want to bring into the next encounter.\n\n2. Discovering new combinations\nSometimes a familiar hero can shine in an unexpected party. Try different combinations and see which approach feels right for your next run. Every attempt is another opportunity to learn.\n\n3. Taking a break\nYou do not need to rush through every decision. When a difficult encounter stands in your way, take a moment to review your options and return with a fresh plan.\n\n4. Reviewing the news\nYou can return to this notice from the news list. Check that the title wraps correctly, paragraphs remain readable, and the final lines are reachable by scrolling.\n\n5. Layout checklist\nCheck spacing around numbered sections, punctuation, and line breaks. On a small screen, the text should stay within the content area and remain readable without horizontal scrolling.\n\nEnd of notice\nIf you can read this final paragraph and reach the Confirm button, the long-text review is complete. Thank you for testing!"
+        },
+        "ko": {
+          "title": "[테스트] 모험가 소식지 — 긴 제목의 줄바꿈과 상세 화면의 본문 스크롤을 확인하는 업데이트 안내",
+          "body": "모험가 여러분, 안녕하세요!\n\n긴 본문을 확인하기 위한 업데이트 안내 예제입니다. 아래 내용은 테스트용으로 작성한 가상의 소식이며, 실제 업데이트 내역이 아닙니다.\n\n1. 던전 입장 전 준비\n좋은 모험은 첫 전투가 시작되기 전부터 만들어집니다. 함께할 영웅을 살펴보고, 서로의 장점을 보완할 수 있는 조합을 생각해 보세요. 익숙한 조합으로 안정적인 도전을 이어 가거나 새로운 조합으로 다른 가능성을 발견할 수 있습니다.\n\n2. 새로운 조합의 발견\n같은 영웅이라도 어떤 동료와 함께하느냐에 따라 모험의 흐름이 달라질 수 있습니다. 여러 조합을 시도하며 자신에게 맞는 전투 방식을 찾아보세요. 기대와 다른 결과가 나오더라도 다음 도전을 위한 경험이 될 수 있습니다.\n\n3. 잠시 쉬어 가는 시간\n어려운 전투를 만났다면 잠시 멈추고 선택지를 살펴보세요. 빠른 결정이 필요할 때도 있지만, 차분하게 상황을 정리하는 것만으로 새로운 방법을 발견할 수 있습니다. 다음 모험을 위한 짧은 휴식도 잊지 마세요.\n\n4. 소식 다시 확인하기\n이 공지는 자동으로 표시되지 않으며 소식 목록에서 직접 열 수 있습니다. 읽은 뒤에도 목록에서 다시 열어 내용을 확인할 수 있습니다. 목록과 상세 화면에서 긴 제목이 자연스럽게 줄바꿈되는지 살펴보세요.\n\n5. 화면 표시 확인 사항\n번호가 있는 문단, 빈 줄, 쉼표와 마침표가 정상적으로 표시되는지 확인해 주세요. 작은 화면에서도 본문이 좌우로 잘리지 않아야 하며, 아래로 스크롤하여 마지막 문장까지 읽을 수 있어야 합니다.\n\n6. 이미지와 이동 버튼이 없는 구성\n이 공지에는 이미지와 별도 이동 버튼이 없습니다. 텍스트만 있는 공지에서도 불필요한 빈 공간이 생기지 않는지, 확인 버튼이 정상적으로 표시되는지 확인해 주세요.\n\n안내를 마치며\n여기까지 본문을 읽고 확인 버튼을 사용할 수 있다면 긴 본문 표시 확인이 끝났습니다. 다음 모험에서도 즐거운 발견이 함께하기를 바랍니다!"
+        }
+      }
+    },
+    {
+      "id": "test-manual-daily-shop-20260926",
+      "revision": 1,
+      "attention_revision": 1,
+      "published_at": "2026-09-25T00:00:00Z",
+      "ends_at": "2026-10-31T00:00:00Z",
+      "enabled": true,
+      "priority": 60,
+      "display_policy": "manual",
+      "locales": {
+        "en": {
+          "title": "[TEST] Stop by the daily shop",
+          "body": "Before your next adventure, take a look at the daily shop.\n\nThis notice tests navigation to a shop section without selecting a specific product. The button opens the daily shop section and does not initiate a purchase."
+        },
+        "ko": {
+          "title": "[테스트] 모험 전, 일일 상점에 들러보세요",
+          "body": "다음 모험을 준비하고 있다면 일일 상점을 둘러보세요.\n\n특정 상품을 지정하지 않고 상점의 한 섹션으로 이동하는 공지입니다. 아래 버튼을 누르면 일일 상점으로 이동하며, 구매가 자동으로 진행되지는 않습니다."
+        }
+      },
+      "action": {
+        "type": "open_shop",
+        "section_id": "daily",
+        "label": {
+          "en": "Visit Daily Shop",
+          "ko": "일일 상점 둘러보기"
+        }
+      }
+    },
+    {
+      "id": "test-locale-fallback-20260926",
+      "revision": 1,
+      "attention_revision": 1,
+      "published_at": "2026-09-25T00:00:00Z",
+      "ends_at": "2026-10-31T00:00:00Z",
+      "enabled": true,
+      "priority": 50,
+      "display_policy": "manual",
+      "locales": {
+        "en": {
+          "title": "[TEST] English fallback notice",
+          "body": "This body is intentionally provided only in English.\n\nWith Korean selected, the title should appear in Korean while this body appears in English. With another language selected, both the title and body should fall back to English.\n\nMissing translations should not produce blank text."
+        },
+        "ko": {
+          "title": "[테스트] 제목은 한국어, 본문은 영어로 표시됩니다"
+        }
+      }
+    },
+    {
+      "id": "test-android-notice-20260926",
+      "revision": 1,
+      "attention_revision": 1,
+      "published_at": "2026-09-25T00:00:00Z",
+      "ends_at": "2026-10-31T00:00:00Z",
+      "enabled": true,
+      "priority": 40,
+      "display_policy": "manual",
+      "platforms": [
+        "android"
+      ],
+      "locales": {
+        "en": {
+          "title": "[TEST] News for Android adventurers",
+          "body": "Hello, Android adventurers!\n\nThis notice is visible only on Android. It should not appear in the news list on iOS, desktop, or web.\n\nUse it to check platform filtering and the notice layout on an Android device."
+        },
+        "ko": {
+          "title": "[테스트] Android 모험가에게 전하는 소식",
+          "body": "Android에서 모험을 즐기고 계신 여러분, 반갑습니다!\n\n이 공지는 Android에서만 표시됩니다. iOS, PC, 웹에서는 소식 목록에 나타나지 않아야 합니다.\n\nAndroid 기기에서 플랫폼 조건과 공지 화면의 배치를 확인해 주세요."
+        }
+      }
+    },
+    {
+      "id": "test-ios-notice-20260926",
+      "revision": 1,
+      "attention_revision": 1,
+      "published_at": "2026-09-25T00:00:00Z",
+      "ends_at": "2026-10-31T00:00:00Z",
+      "enabled": true,
+      "priority": 39,
+      "display_policy": "manual",
+      "platforms": [
+        "ios"
+      ],
+      "locales": {
+        "en": {
+          "title": "[TEST] News for iPhone and iPad adventurers",
+          "body": "Hello, iPhone and iPad adventurers!\n\nThis notice is visible only on iOS. It should not appear in the news list on Android, desktop, or web.\n\nCheck the title, paragraph spacing, and Confirm button on your device."
+        },
+        "ko": {
+          "title": "[테스트] iPhone과 iPad 모험가에게 전하는 소식",
+          "body": "iPhone과 iPad에서 모험을 즐기고 계신 여러분, 반갑습니다!\n\n이 공지는 iOS에서만 표시됩니다. Android, PC, 웹에서는 소식 목록에 나타나지 않아야 합니다.\n\n사용 중인 기기에서 제목, 문단 간격, 확인 버튼이 정상적으로 표시되는지 확인해 주세요."
+        }
+      }
+    },
+    {
+      "id": "test-version-range-20260926",
+      "revision": 1,
+      "attention_revision": 1,
+      "published_at": "2026-09-25T00:00:00Z",
+      "ends_at": "2026-10-31T00:00:00Z",
+      "enabled": true,
+      "priority": 30,
+      "display_policy": "manual",
+      "min_version": "1.0.36",
+      "max_version": "1.0.99",
+      "locales": {
+        "en": {
+          "title": "[TEST] A notice for selected app versions",
+          "body": "This notice targets app versions 1.0.36 through 1.0.99, inclusive.\n\nIt should be visible within that range and absent on earlier or later versions. This sample does not require an update or restrict access to the game."
+        },
+        "ko": {
+          "title": "[테스트] 특정 앱 버전 대상 안내",
+          "body": "앱 버전 1.0.36부터 1.0.99까지를 대상으로 하는 공지입니다. 시작 버전과 마지막 버전도 대상에 포함됩니다.\n\n범위에 해당하는 버전에서는 표시되고, 이전 또는 이후 버전에서는 표시되지 않아야 합니다. 실제 업데이트를 요구하거나 게임 이용을 제한하는 공지는 아닙니다."
+        }
+      }
+    },
+    {
+      "id": "test-scheduled-notice-20261001",
+      "revision": 1,
+      "attention_revision": 1,
+      "published_at": "2026-10-01T00:00:00Z",
+      "ends_at": "2026-10-31T00:00:00Z",
+      "enabled": true,
+      "priority": 20,
+      "display_policy": "manual",
+      "locales": {
+        "en": {
+          "title": "[TEST] October adventure journal",
+          "body": "A new month of adventures begins!\n\nThis scheduled notice becomes visible on October 1, 2026 at 00:00 UTC, which is 09:00 in Korea.\n\nBefore that time, it should not appear in the news list. No event rewards or gameplay changes are attached to this sample."
+        },
+        "ko": {
+          "title": "[테스트] 10월의 모험 소식이 도착했습니다",
+          "body": "새로운 달, 새로운 모험을 시작해 보세요!\n\n이 공지는 한국 시간 2026년 10월 1일 오전 9시부터 표시되도록 예약한 예제입니다.\n\n예약 시각 전에는 소식 목록에 나타나지 않아야 합니다. 이 예제로 실제 이벤트 보상이 지급되거나 게임 내용이 변경되지는 않습니다."
+        }
+      }
+    },
+    {
+      "id": "test-expired-notice-20260901",
+      "revision": 1,
+      "attention_revision": 1,
+      "published_at": "2026-09-01T00:00:00Z",
+      "ends_at": "2026-09-25T00:00:00Z",
+      "enabled": true,
+      "priority": 10,
+      "display_policy": "auto",
+      "frequency": "session",
+      "featured": true,
+      "locales": {
+        "en": {
+          "title": "[TEST] Expired adventure notice",
+          "body": "This sample notice expired on September 25, 2026 at 00:00 UTC.\n\nEven though it is enabled and marked as featured, it should no longer appear in the news list, automatic popups, or featured banner."
+        },
+        "ko": {
+          "title": "[테스트] 기간이 종료된 모험 안내",
+          "body": "한국 시간 2026년 9월 25일 오전 9시에 게시 기간이 종료된 공지입니다.\n\n활성 상태이며 대표 배너로 지정되어 있어도, 종료 시각이 지났으므로 소식 목록과 자동 팝업, 대표 배너에 표시되지 않아야 합니다."
+        }
+      }
+    },
+    {
+      "id": "test-disabled-notice-20260926",
+      "revision": 1,
+      "attention_revision": 1,
+      "published_at": "2026-09-25T00:00:00Z",
+      "ends_at": "2026-10-31T00:00:00Z",
+      "enabled": false,
+      "priority": 200,
+      "display_policy": "require_ack",
+      "featured": true,
+      "locales": {
+        "en": {
+          "title": "[TEST] Disabled notice — should remain hidden",
+          "body": "This notice is intentionally disabled.\n\nDespite its high priority, required acknowledgement policy, and featured setting, it should not appear anywhere while enabled is false."
+        },
+        "ko": {
+          "title": "[테스트] 비활성 공지 — 화면에 표시되면 안 됩니다",
+          "body": "게시 중단 상태를 확인하기 위해 비활성화한 공지입니다.\n\n우선순위가 높고 필수 확인 및 대표 배너로 지정되어 있어도, enabled가 false이므로 모든 공지 화면에서 제외되어야 합니다."
         }
       }
     }
