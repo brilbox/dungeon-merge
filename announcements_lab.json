@@ -30,7 +30,7 @@
       "enabled": true,
       "priority": 90,
       "display_policy": "auto",
-      "frequency": "daily",
+      "frequency": "require_ack",
       "featured": true,
       "hide_if_owned_product": "com.brilbox.dmerge.hero_unlock_pack",
       "locales": {
