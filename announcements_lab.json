@@ -37,7 +37,7 @@
         "en": {
           "title": "[TEST] Meet your next dungeon companion",
           "body": "A new party begins with a new hero. Visit the shop to explore the Hero Pack and find your next dungeon companion.\n\nThis notice tests the featured banner, image display, shop navigation, and automatic display at intervals of at least 24 hours.\n\nOwning the Hero Pack hides its automatic popup and featured banner, while keeping the notice in the news list.",
-          "image": "https://github.com/brilbox/dungeon-merge/blob/main/announcements/hero-pack/banner.ko.v1.png"
+          "image": "https://brilbox.github.io/dungeon-merge/announcements/hero-pack/banner.ko.v1.png"
         },
         "ko": {
           "title": "[테스트] 다음 모험을 함께할 영웅을 만나보세요",
