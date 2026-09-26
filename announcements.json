@@ -7,15 +7,16 @@
       "attention_revision": 1,
       "published_at": "2026-09-26T13:47:46Z",
       "enabled": true,
-      "priority": 0,
-      "display_policy": "manual",
+      "priority": 100,
+      "display_policy": "require_ack",
       "frequency": "session",
       "featured": false,
       "platforms": [],
       "locales": {
         "en": {
           "title": "1.0.37 Update — Weekly Challenge Is Here!",
-          "body": "Discover new strategies under rules that change every week, and push for a new personal best!\n\n• Weekly Challenge\nTake on weekly Grand Pacts and Trials, and compete with fellow adventurers for the best record. Complete the base Campaign once to unlock this mode.\n\n• The Adventure Continues in Endless Battle\nClear the final region of a Challenge to enter Endless Battle. Keep growing, regroup between battles, and see how long you can survive!\n\n• Shorter, More Focused Adventures\nEach region now consists of 10 regular floors and a boss floor. Starting decks and progression have also been adjusted.\n\n• Separate Campaign and Challenge Saves\nTry a Challenge without giving up your ongoing Campaign. Save and resume each adventure separately.\n\n• New Skills and Gameplay Improvements\nAdded “Golden Miracle” and “Mana Loan.” We’ve also rebalanced various skills and events, improved combat controls and UI clarity, and made resuming adventures and signing in more reliable.\n\nHead to the lobby and discover the new Challenge!"
+          "body": "Discover new strategies under rules that change every week, and push for a new personal best!\n\n• Weekly Challenge\nTake on weekly Grand Pacts and Trials, and compete with fellow adventurers for the best record. Complete the base Campaign once to unlock this mode.\n\n• The Adventure Continues in Endless Battle\nClear the final region of a Challenge to enter Endless Battle. Keep growing, regroup between battles, and see how long you can survive!\n\n• Shorter, More Focused Adventures\nEach region now consists of 10 regular floors and a boss floor. Starting decks and progression have also been adjusted.\n\n• Separate Campaign and Challenge Saves\nTry a Challenge without giving up your ongoing Campaign. Save and resume each adventure separately.\n\n• New Skills and Gameplay Improvements\nAdded “Golden Miracle” and “Mana Loan.” We’ve also rebalanced various skills and events, improved combat controls and UI clarity, and made resuming adventures and signing in more reliable.\n\nHead to the lobby and discover the new Challenge!",
+          "image": "https://raw.githubusercontent.com/brilbox/dungeon-merge/main/images/challenge_landscape.png"
         },
         "ko": {
           "title": "1.0.37 업데이트 — 주간 챌린지 오픈!",
