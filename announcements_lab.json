@@ -2,277 +2,99 @@
   "schema_version": 1,
   "announcements": [
     {
-      "id": "test-required-notice-20260926",
+      "id": "notice-20260926134746",
       "revision": 1,
-      "attention_revision": 2,
-      "published_at": "2026-09-25T00:00:00Z",
-      "ends_at": "2026-10-31T00:00:00Z",
+      "attention_revision": 1,
+      "published_at": "2026-09-26T13:47:46Z",
       "enabled": true,
       "priority": 100,
       "display_policy": "require_ack",
-      "locales": {
-        "en": {
-          "title": "[TEST] Important notice before your adventure",
-          "body": "Adventurers, please read this notice before continuing.\n\nThis sample tests a notice that requires acknowledgement. No maintenance, account changes, or gameplay restrictions are actually applied.\n\nTap Confirm to continue. Tapping the background or using the back button should not close this notice."
-        },
-        "ko": {
-          "title": "[테스트] 모험 시작 전 꼭 확인해 주세요",
-          "body": "모험가 여러분, 던전에 입장하기 전 안내 내용을 확인해 주세요.\n\n이 공지는 필수 확인 팝업을 테스트하기 위한 예제입니다. 실제 점검이나 계정 변경, 게임 이용 제한은 진행되지 않습니다.\n\n아래 확인 버튼을 눌러 안내를 마칠 수 있습니다. 배경을 누르거나 뒤로가기를 사용해도 공지가 닫히지 않는지 확인해 주세요."
-        }
-      }
-    },
-    {
-      "id": "test-daily-hero-pack-20260926",
-      "revision": 2,
-      "attention_revision": 2,
-      "published_at": "2026-09-25T00:00:00Z",
-      "ends_at": "2026-10-31T00:00:00Z",
-      "enabled": true,
-      "priority": 90,
-      "display_policy": "require_ack",
-      "featured": true,
-      "locales": {
-        "en": {
-          "title": "[TEST] Meet your next dungeon companion",
-          "body": "This image notice requires acknowledgement. It appears after the previous required notice has been confirmed.\n\nCheck that the image appears above this message, then tap Confirm to continue. Tapping the background or using the back button should not close this notice.\n\nThis notice is included regardless of Hero Pack ownership. Once confirmed, it is skipped until attention_revision is increased.",
-          "image": "https://brilbox.github.io/dungeon-merge/announcements/hero-pack/banner.ko.v1.png"
-        },
-        "ko": {
-          "title": "[테스트] 다음 모험을 함께할 영웅을 만나보세요",
-          "body": "이미지가 포함된 필수 확인 공지입니다. 앞선 필수 공지를 확인하면 이 공지가 이어서 표시됩니다.\n\n이 본문 위에 이미지가 정상적으로 표시되는지 확인한 뒤, 아래 확인 버튼을 눌러 안내를 마쳐 주세요. 배경을 누르거나 뒤로가기를 사용해도 공지가 닫히지 않아야 합니다.\n\n영웅팩 보유 여부와 관계없이 표시 대상에 포함됩니다. 한 번 확인하면 attention_revision을 올리기 전까지 다시 표시되지 않습니다."
-        }
-      }
-    },
-    {
-      "id": "test-session-external-link-20260926",
-      "revision": 1,
-      "attention_revision": 1,
-      "published_at": "2026-09-25T00:00:00Z",
-      "ends_at": "2026-10-31T00:00:00Z",
-      "enabled": true,
-      "priority": 80,
-      "display_policy": "auto",
-      "frequency": "session",
-      "locales": {
-        "en": {
-          "title": "[TEST] Take a short break between adventures",
-          "body": "Your next adventure can wait a moment. Take a look around the Steam store during your break.\n\nThe button opens the Steam home page for testing; it does not point to a Dungeon Merge product page.\n\nReturn to the game and confirm that this notice remains open. This notice can appear again in a new app session unless you select the option to hide it, subject to automatic notice priority."
-        },
-        "ko": {
-          "title": "[테스트] 모험 사이, 잠깐의 쉬어 가기",
-          "body": "다음 던전으로 떠나기 전 잠시 쉬어 가세요. 아래 버튼으로 Steam 상점을 둘러볼 수 있습니다.\n\n외부 링크 테스트를 위해 Steam 첫 화면으로 연결됩니다. 던전 머지의 실제 상품 페이지로 연결되는 것은 아닙니다.\n\n게임으로 돌아왔을 때 공지가 유지되는지 확인해 주세요. 다시 보지 않기를 선택하지 않았다면, 자동 공지 우선순위에 따라 앱을 새로 실행할 때 다시 표시될 수 있습니다."
-        }
-      },
-      "action": {
-        "type": "open_url",
-        "url": "https://store.steampowered.com/",
-        "urls": {
-          "en": "https://store.steampowered.com/?l=english",
-          "ko": "https://store.steampowered.com/?l=koreana"
-        },
-        "label": {
-          "en": "Open Steam",
-          "ko": "Steam 둘러보기"
-        }
-      }
-    },
-    {
-      "id": "test-manual-long-update-20260926",
-      "revision": 1,
-      "attention_revision": 1,
-      "published_at": "2026-09-25T00:00:00Z",
-      "ends_at": "2026-10-31T00:00:00Z",
-      "enabled": true,
-      "priority": 70,
-      "display_policy": "manual",
-      "locales": {
-        "en": {
-          "title": "[TEST] Adventure journal: a long update notice for checking wrapping and scrolling",
-          "body": "Welcome, adventurers!\n\nThis is a sample update notice for testing long text. The changes below are fictional and do not describe an actual release.\n\n1. Preparing for the dungeon\nA great adventure begins before the first battle. Review your party, consider how your heroes work together, and choose the companions you want to bring into the next encounter.\n\n2. Discovering new combinations\nSometimes a familiar hero can shine in an unexpected party. Try different combinations and see which approach feels right for your next run. Every attempt is another opportunity to learn.\n\n3. Taking a break\nYou do not need to rush through every decision. When a difficult encounter stands in your way, take a moment to review your options and return with a fresh plan.\n\n4. Reviewing the news\nYou can return to this notice from the news list. Check that the title wraps correctly, paragraphs remain readable, and the final lines are reachable by scrolling.\n\n5. Layout checklist\nCheck spacing around numbered sections, punctuation, and line breaks. On a small screen, the text should stay within the content area and remain readable without horizontal scrolling.\n\nEnd of notice\nIf you can read this final paragraph and reach the Confirm button, the long-text review is complete. Thank you for testing!"
-        },
-        "ko": {
-          "title": "[테스트] 모험가 소식지 — 긴 제목의 줄바꿈과 상세 화면의 본문 스크롤을 확인하는 업데이트 안내",
-          "body": "모험가 여러분, 안녕하세요!\n\n긴 본문을 확인하기 위한 업데이트 안내 예제입니다. 아래 내용은 테스트용으로 작성한 가상의 소식이며, 실제 업데이트 내역이 아닙니다.\n\n1. 던전 입장 전 준비\n좋은 모험은 첫 전투가 시작되기 전부터 만들어집니다. 함께할 영웅을 살펴보고, 서로의 장점을 보완할 수 있는 조합을 생각해 보세요. 익숙한 조합으로 안정적인 도전을 이어 가거나 새로운 조합으로 다른 가능성을 발견할 수 있습니다.\n\n2. 새로운 조합의 발견\n같은 영웅이라도 어떤 동료와 함께하느냐에 따라 모험의 흐름이 달라질 수 있습니다. 여러 조합을 시도하며 자신에게 맞는 전투 방식을 찾아보세요. 기대와 다른 결과가 나오더라도 다음 도전을 위한 경험이 될 수 있습니다.\n\n3. 잠시 쉬어 가는 시간\n어려운 전투를 만났다면 잠시 멈추고 선택지를 살펴보세요. 빠른 결정이 필요할 때도 있지만, 차분하게 상황을 정리하는 것만으로 새로운 방법을 발견할 수 있습니다. 다음 모험을 위한 짧은 휴식도 잊지 마세요.\n\n4. 소식 다시 확인하기\n이 공지는 자동으로 표시되지 않으며 소식 목록에서 직접 열 수 있습니다. 읽은 뒤에도 목록에서 다시 열어 내용을 확인할 수 있습니다. 목록과 상세 화면에서 긴 제목이 자연스럽게 줄바꿈되는지 살펴보세요.\n\n5. 화면 표시 확인 사항\n번호가 있는 문단, 빈 줄, 쉼표와 마침표가 정상적으로 표시되는지 확인해 주세요. 작은 화면에서도 본문이 좌우로 잘리지 않아야 하며, 아래로 스크롤하여 마지막 문장까지 읽을 수 있어야 합니다.\n\n6. 이미지와 이동 버튼이 없는 구성\n이 공지에는 이미지와 별도 이동 버튼이 없습니다. 텍스트만 있는 공지에서도 불필요한 빈 공간이 생기지 않는지, 확인 버튼이 정상적으로 표시되는지 확인해 주세요.\n\n안내를 마치며\n여기까지 본문을 읽고 확인 버튼을 사용할 수 있다면 긴 본문 표시 확인이 끝났습니다. 다음 모험에서도 즐거운 발견이 함께하기를 바랍니다!"
-        }
-      }
-    },
-    {
-      "id": "test-manual-daily-shop-20260926",
-      "revision": 1,
-      "attention_revision": 1,
-      "published_at": "2026-09-25T00:00:00Z",
-      "ends_at": "2026-10-31T00:00:00Z",
-      "enabled": true,
-      "priority": 60,
-      "display_policy": "manual",
-      "locales": {
-        "en": {
-          "title": "[TEST] Stop by the daily shop",
-          "body": "Before your next adventure, take a look at the daily shop.\n\nThis notice tests navigation to a shop section without selecting a specific product. The button opens the daily shop section and does not initiate a purchase."
-        },
-        "ko": {
-          "title": "[테스트] 모험 전, 일일 상점에 들러보세요",
-          "body": "다음 모험을 준비하고 있다면 일일 상점을 둘러보세요.\n\n특정 상품을 지정하지 않고 상점의 한 섹션으로 이동하는 공지입니다. 아래 버튼을 누르면 일일 상점으로 이동하며, 구매가 자동으로 진행되지는 않습니다."
-        }
-      },
-      "action": {
-        "type": "open_shop",
-        "section_id": "daily",
-        "label": {
-          "en": "Visit Daily Shop",
-          "ko": "일일 상점 둘러보기"
-        }
-      }
-    },
-    {
-      "id": "test-locale-fallback-20260926",
-      "revision": 1,
-      "attention_revision": 1,
-      "published_at": "2026-09-25T00:00:00Z",
-      "ends_at": "2026-10-31T00:00:00Z",
-      "enabled": true,
-      "priority": 50,
-      "display_policy": "manual",
-      "locales": {
-        "en": {
-          "title": "[TEST] English fallback notice",
-          "body": "This body is intentionally provided only in English.\n\nWith Korean selected, the title should appear in Korean while this body appears in English. With another language selected, both the title and body should fall back to English.\n\nMissing translations should not produce blank text."
-        },
-        "ko": {
-          "title": "[테스트] 제목은 한국어, 본문은 영어로 표시됩니다"
-        }
-      }
-    },
-    {
-      "id": "test-android-notice-20260926",
-      "revision": 1,
-      "attention_revision": 1,
-      "published_at": "2026-09-25T00:00:00Z",
-      "ends_at": "2026-10-31T00:00:00Z",
-      "enabled": true,
-      "priority": 40,
-      "display_policy": "manual",
-      "platforms": [
-        "android"
-      ],
-      "locales": {
-        "en": {
-          "title": "[TEST] News for Android adventurers",
-          "body": "Hello, Android adventurers!\n\nThis notice is visible only on Android. It should not appear in the news list on iOS, desktop, or web.\n\nUse it to check platform filtering and the notice layout on an Android device."
-        },
-        "ko": {
-          "title": "[테스트] Android 모험가에게 전하는 소식",
-          "body": "Android에서 모험을 즐기고 계신 여러분, 반갑습니다!\n\n이 공지는 Android에서만 표시됩니다. iOS, PC, 웹에서는 소식 목록에 나타나지 않아야 합니다.\n\nAndroid 기기에서 플랫폼 조건과 공지 화면의 배치를 확인해 주세요."
-        }
-      }
-    },
-    {
-      "id": "test-ios-notice-20260926",
-      "revision": 1,
-      "attention_revision": 1,
-      "published_at": "2026-09-25T00:00:00Z",
-      "ends_at": "2026-10-31T00:00:00Z",
-      "enabled": true,
-      "priority": 39,
-      "display_policy": "manual",
-      "platforms": [
-        "ios"
-      ],
-      "locales": {
-        "en": {
-          "title": "[TEST] News for iPhone and iPad adventurers",
-          "body": "Hello, iPhone and iPad adventurers!\n\nThis notice is visible only on iOS. It should not appear in the news list on Android, desktop, or web.\n\nCheck the title, paragraph spacing, and Confirm button on your device."
-        },
-        "ko": {
-          "title": "[테스트] iPhone과 iPad 모험가에게 전하는 소식",
-          "body": "iPhone과 iPad에서 모험을 즐기고 계신 여러분, 반갑습니다!\n\n이 공지는 iOS에서만 표시됩니다. Android, PC, 웹에서는 소식 목록에 나타나지 않아야 합니다.\n\n사용 중인 기기에서 제목, 문단 간격, 확인 버튼이 정상적으로 표시되는지 확인해 주세요."
-        }
-      }
-    },
-    {
-      "id": "test-version-range-20260926",
-      "revision": 1,
-      "attention_revision": 1,
-      "published_at": "2026-09-25T00:00:00Z",
-      "ends_at": "2026-10-31T00:00:00Z",
-      "enabled": true,
-      "priority": 30,
-      "display_policy": "manual",
-      "min_version": "1.0.36",
-      "max_version": "1.0.99",
-      "locales": {
-        "en": {
-          "title": "[TEST] A notice for selected app versions",
-          "body": "This notice targets app versions 1.0.36 through 1.0.99, inclusive.\n\nIt should be visible within that range and absent on earlier or later versions. This sample does not require an update or restrict access to the game."
-        },
-        "ko": {
-          "title": "[테스트] 특정 앱 버전 대상 안내",
-          "body": "앱 버전 1.0.36부터 1.0.99까지를 대상으로 하는 공지입니다. 시작 버전과 마지막 버전도 대상에 포함됩니다.\n\n범위에 해당하는 버전에서는 표시되고, 이전 또는 이후 버전에서는 표시되지 않아야 합니다. 실제 업데이트를 요구하거나 게임 이용을 제한하는 공지는 아닙니다."
-        }
-      }
-    },
-    {
-      "id": "test-scheduled-notice-20261001",
-      "revision": 1,
-      "attention_revision": 1,
-      "published_at": "2026-10-01T00:00:00Z",
-      "ends_at": "2026-10-31T00:00:00Z",
-      "enabled": true,
-      "priority": 20,
-      "display_policy": "manual",
-      "locales": {
-        "en": {
-          "title": "[TEST] October adventure journal",
-          "body": "A new month of adventures begins!\n\nThis scheduled notice becomes visible on October 1, 2026 at 00:00 UTC, which is 09:00 in Korea.\n\nBefore that time, it should not appear in the news list. No event rewards or gameplay changes are attached to this sample."
-        },
-        "ko": {
-          "title": "[테스트] 10월의 모험 소식이 도착했습니다",
-          "body": "새로운 달, 새로운 모험을 시작해 보세요!\n\n이 공지는 한국 시간 2026년 10월 1일 오전 9시부터 표시되도록 예약한 예제입니다.\n\n예약 시각 전에는 소식 목록에 나타나지 않아야 합니다. 이 예제로 실제 이벤트 보상이 지급되거나 게임 내용이 변경되지는 않습니다."
-        }
-      }
-    },
-    {
-      "id": "test-expired-notice-20260901",
-      "revision": 1,
-      "attention_revision": 1,
-      "published_at": "2026-09-01T00:00:00Z",
-      "ends_at": "2026-09-25T00:00:00Z",
-      "enabled": true,
-      "priority": 10,
-      "display_policy": "auto",
       "frequency": "session",
       "featured": true,
+      "platforms": [],
       "locales": {
         "en": {
-          "title": "[TEST] Expired adventure notice",
-          "body": "This sample notice expired on September 25, 2026 at 00:00 UTC.\n\nEven though it is enabled and marked as featured, it should no longer appear in the news list, automatic popups, or featured banner."
+          "title": "Weekly Challenge Is Here!",
+          "body": "Discover new strategies under rules that change every week, and push for a new personal best!\n\n- Weekly Challenge\nTake on weekly Grand Pacts and Trials, and compete with fellow adventurers for the best record. Complete the base Campaign once to unlock this mode.\n\n- The Adventure Continues in Endless Battle\nClear the final region of a Challenge to enter Endless Battle. Keep growing, regroup between battles, and see how long you can survive!\n\n- Shorter, More Focused Adventures\nEach region now consists of 10 regular floors and a boss floor. Starting decks and progression have also been adjusted.\n\n- Separate Campaign and Challenge Saves\nTry a Challenge without giving up your ongoing Campaign. Save and resume each adventure separately.\n\n- New Skills and Gameplay Improvements\nAdded “Golden Miracle” and “Mana Loan.” We’ve also rebalanced various skills and events, improved combat controls and UI clarity, and made resuming adventures and signing in more reliable.\n\nHead to the lobby and discover the new Challenge!",
+          "image": "https://raw.githubusercontent.com/brilbox/dungeon-merge/main/images/challenge_landscape.png"
         },
         "ko": {
-          "title": "[테스트] 기간이 종료된 모험 안내",
-          "body": "한국 시간 2026년 9월 25일 오전 9시에 게시 기간이 종료된 공지입니다.\n\n활성 상태이며 대표 배너로 지정되어 있어도, 종료 시각이 지났으므로 소식 목록과 자동 팝업, 대표 배너에 표시되지 않아야 합니다."
+          "title": "주간 챌린지 오픈!",
+          "body": "매주 달라지는 규칙 속에서 나만의 전략을 찾고, 새로운 기록에 도전해 보세요!\n\n- 주간 챌린지 추가\n매주 바뀌는 대계약과 시련을 공략하고 다른 모험가들과 기록을 겨뤄보세요. 기본 캠페인을 한 번 완료하면 참여할 수 있습니다.\n\n- 끝없는 도전, 무한전장\n챌린지의 마지막 지역을 돌파하면 무한전장이 시작됩니다. 성장과 정비를 활용해 더 오래 살아남아 보세요!\n\n- 더 짧고 밀도 있는 모험\n각 지역을 일반 10층과 보스층으로 구성하고, 시작 덱과 성장 흐름을 함께 조정했습니다.\n\n- 캠페인과 챌린지 별도 이어하기\n진행 중인 캠페인을 남겨둔 채 챌린지에 도전할 수 있습니다. 두 모험을 각각 저장하고 이어서 즐겨보세요.\n\n- 신규 스킬 및 플레이 개선\n‘황금빛 기적’과 ‘마나 대출’ 스킬을 추가했습니다. 여러 스킬과 이벤트의 밸런스를 조정하고, 전투 조작과 화면 표시, 이어하기 및 로그인 안정성을 개선했습니다.\n\n로비에서 새롭게 열린 챌린지를 확인해 보세요!"
+        },
+        "ja": {
+          "title": "週間チャレンジ開幕！",
+          "body": "毎週変わるルールの中で自分だけの戦略を見つけ、新たな記録に挑戦しましょう！\n\n- 週間チャレンジが登場\n毎週変わる大契約と試練を攻略し、ほかの冒険者たちと記録を競いましょう。通常のキャンペーンを一度クリアすると参加できます。\n\n- 終わりなき挑戦、無限戦場\nチャレンジの最終エリアを突破すると、無限戦場が始まります。成長と戦闘の合間の準備を活かして、より長く生き残りましょう！\n\n- より短く、充実した冒険\n各エリアを通常の10フロアとボスフロアで構成し、初期デッキと成長の流れも調整しました。\n\n- キャンペーンとチャレンジを個別に再開\n進行中のキャンペーンを残したまま、チャレンジに挑戦できます。それぞれの冒険を保存し、個別に続きを楽しめます。\n\n- 新スキルとプレイ体験の改善\n「黄金の奇跡」と「マナ借入」を追加しました。各種スキルやイベントのバランスを調整し、戦闘操作や画面表示、冒険の再開とログインの安定性を改善しました。\n\nロビーで新たなチャレンジをチェックしましょう！"
+        },
+        "zh_CN": {
+          "title": "每周挑战开启！",
+          "body": "在每周变化的规则中找到自己的策略，向新的纪录发起挑战！\n\n- 新增每周挑战\n攻克每周变化的大契约与试炼，与其他冒险者一较高下。完成一次基础战役后即可参与。\n\n- 挑战永不止步，无限战场\n通关挑战的最后一个区域后，即可进入无限战场。利用成长与休整，努力生存得更久！\n\n- 更紧凑、更充实的冒险\n每个区域调整为10个普通楼层和1个首领楼层，同时调整了初始牌组与成长节奏。\n\n- 战役与挑战分别续玩\n保留当前战役进度的同时，也能开启挑战。两种冒险分别保存，随时继续各自的旅程。\n\n- 新增技能与体验优化\n新增“黄金奇迹”和“法力贷款”技能。调整了多项技能与事件的平衡性，并优化了战斗操作、界面显示，以及续玩和登录的稳定性。\n\n前往大厅，体验全新的挑战吧！"
+        },
+        "zh_TW": {
+          "title": "每週挑戰登場！",
+          "body": "在每週變化的規則中找出自己的策略，挑戰全新的紀錄！\n\n- 新增每週挑戰\n攻略每週變換的大契約與試煉，與其他冒險者一較高下。完成一次基本戰役後即可參加。\n\n- 永無止境的挑戰，無限戰場\n通過挑戰的最後一個區域後，即可進入無限戰場。善用成長與整備，努力存活得更久！\n\n- 更精簡、更充實的冒險\n每個區域調整為10個一般樓層與1個Boss樓層，並同步調整初始牌組與成長節奏。\n\n- 戰役與挑戰分別續玩\n保留目前的戰役進度，也能同時展開挑戰。兩種冒險分別儲存，隨時繼續各自的旅程。\n\n- 新增技能與遊戲體驗改善\n新增「黃金奇蹟」與「魔力貸款」技能。調整多項技能與事件的平衡性，並改善戰鬥操作、畫面顯示，以及續玩與登入的穩定性。\n\n快到大廳看看全新的挑戰吧！"
+        },
+        "de": {
+          "title": "Die wöchentliche Herausforderung ist da!",
+          "body": "Entdecke neue Strategien unter wöchentlich wechselnden Regeln und stelle einen neuen persönlichen Rekord auf!\n\n- Neue wöchentliche Herausforderung\nMeistere wechselnde Großpakte und Prüfungen und miss dich mit anderen Abenteurern. Nach deinem ersten Abschluss der normalen Kampagne kannst du teilnehmen.\n\n- Die Reise geht im Endloskampf weiter\nNach dem letzten Gebiet einer Herausforderung beginnt der Endloskampf. Werde stärker, bereite dich zwischen den Kämpfen vor und finde heraus, wie lange du überleben kannst!\n\n- Kürzere, abwechslungsreiche Abenteuer\nJedes Gebiet besteht jetzt aus 10 normalen Ebenen und einer Boss-Ebene. Auch die Startdecks und der Fortschritt wurden angepasst.\n\n- Kampagne und Herausforderung getrennt fortsetzen\nStarte eine Herausforderung, ohne deine laufende Kampagne aufzugeben. Beide Abenteuer werden getrennt gespeichert und können unabhängig fortgesetzt werden.\n\n- Neue Fertigkeiten und Verbesserungen\n„Goldenes Wunder“ und „Manadarlehen“ wurden hinzugefügt. Außerdem haben wir die Balance verschiedener Fertigkeiten und Ereignisse angepasst, die Kampfsteuerung und Bildschirmanzeigen verbessert sowie das Fortsetzen von Abenteuern und die Anmeldung stabiler gemacht.\n\nEntdecke die neue Herausforderung in der Lobby!"
+        },
+        "fr": {
+          "title": "Le Défi hebdomadaire est arrivé !",
+          "body": "Découvrez de nouvelles stratégies avec des règles qui changent chaque semaine et tentez de battre votre record !\n\n- Nouveau Défi hebdomadaire\nSurmontez des Grands pactes et des Épreuves qui changent chaque semaine, et mesurez vos records à ceux des autres aventuriers. Terminez une fois la Campagne normale pour y participer.\n\n- L’aventure continue dans le Combat sans fin\nAprès la dernière région d’un Défi, le Combat sans fin commence. Renforcez-vous, préparez-vous entre les combats et tentez de survivre toujours plus longtemps !\n\n- Des aventures plus courtes et plus intenses\nChaque région comprend désormais 10 étages ordinaires et un étage de boss. Les decks de départ et la progression ont également été ajustés.\n\n- Des sauvegardes séparées pour la Campagne et le Défi\nLancez un Défi tout en conservant votre Campagne en cours. Chaque aventure dispose de sa propre sauvegarde et peut être reprise séparément.\n\n- Nouvelles compétences et améliorations\nAjout de « Miracle doré » et de « Prêt de mana ». Nous avons également rééquilibré plusieurs compétences et événements, amélioré les commandes de combat et l’affichage, et renforcé la fiabilité de la reprise des aventures et de la connexion.\n\nRendez-vous dans le hall pour découvrir le nouveau Défi !"
+        },
+        "es": {
+          "title": "¡Llega el Desafío semanal!",
+          "body": "¡Descubre nuevas estrategias con reglas que cambian cada semana y supera tu mejor marca!\n\n- Nuevo Desafío semanal\nSupera Grandes pactos y Pruebas que cambian cada semana, y compite con otros aventureros por la mejor marca. Completa la Campaña normal una vez para participar.\n\n- La aventura continúa en el Combate infinito\nTras superar la última región de un Desafío, comienza el Combate infinito. ¡Hazte más fuerte, prepárate entre combates y descubre cuánto tiempo puedes sobrevivir!\n\n- Aventuras más cortas e intensas\nCada región ahora consta de 10 pisos normales y un piso de jefe. También hemos ajustado los mazos iniciales y la progresión.\n\n- Campaña y Desafío con partidas separadas\nInicia un Desafío sin perder tu Campaña en curso. Guarda y retoma cada aventura por separado.\n\n- Nuevas habilidades y mejoras\nHemos añadido «Milagro dorado» y «Préstamo de maná». También hemos ajustado el equilibrio de varias habilidades y eventos, mejorado los controles de combate y la información en pantalla, y aumentado la estabilidad al reanudar partidas e iniciar sesión.\n\n¡Visita el vestíbulo y descubre el nuevo Desafío!"
         }
       }
     },
     {
-      "id": "test-disabled-notice-20260926",
+      "id": "notice-20261011034253",
       "revision": 1,
       "attention_revision": 1,
-      "published_at": "2026-09-25T00:00:00Z",
-      "ends_at": "2026-10-31T00:00:00Z",
-      "enabled": false,
-      "priority": 200,
+      "published_at": "2026-10-11T03:42:53Z",
+      "enabled": true,
+      "priority": 0,
       "display_policy": "require_ack",
-      "featured": true,
+      "frequency": "session",
+      "featured": false,
+      "platforms": [],
       "locales": {
         "en": {
-          "title": "[TEST] Disabled notice — should remain hidden",
-          "body": "This notice is intentionally disabled.\n\nDespite its high priority, required acknowledgement policy, and featured setting, it should not appear anywhere while enabled is false."
+          "title": "Engineer Hero Rework",
+          "body": "The Engineer’s unique ability has been changed to Self Modification!\n\nYou can now choose Self Modification instead of a reward when leveling up. Choose a path focused on higher tier units, mastery or spawn rates and improve a stat within that path.\n\nThe path chosen during your first modification stays fixed for the rest of the run.\n\nThe starting skill has also changed from Reforge to Suppress."
         },
         "ko": {
-          "title": "[테스트] 비활성 공지 — 화면에 표시되면 안 됩니다",
-          "body": "게시 중단 상태를 확인하기 위해 비활성화한 공지입니다.\n\n우선순위가 높고 필수 확인 및 대표 배너로 지정되어 있어도, enabled가 false이므로 모든 공지 화면에서 제외되어야 합니다."
+          "title": "공학자 영웅 개편 안내",
+          "body": "공학자의 고유 능력이 자기개조로 변경되었습니다!\n\n레벨업 보상 대신 자기개조를 선택할 수 있습니다. 상위 유닛 증가와 숙련도 증가 그리고 등장 확률 증가 중 방향을 정하고 해당 분야의 능력치를 강화하세요.\n\n첫 개조에서 선택한 방향은 이번 모험 동안 유지됩니다.\n\n시작 스킬도 재련에서 억제로 변경되었습니다.",
+          "image": "https://raw.githubusercontent.com/brilbox/dungeon-merge/main/images/engineer_selfModification.png"
+        },
+        "ja": {
+          "title": "英雄エンジニアの性能変更のお知らせ",
+          "body": "エンジニアの固有能力が自己改造に変更されました！\n\nレベルアップ報酬の代わりに自己改造を選べるようになりました。上位ユニットの出現率向上、熟練度の強化、出現率の向上から改造方針を選び、その方針の能力値を強化しましょう。\n\n最初の改造で選んだ方針は、その冒険の間は変更できません。\n\n初期スキルも再錬から抑制に変更されました。"
+        },
+        "zh_CN": {
+          "title": "工程师英雄调整公告",
+          "body": "工程师的专属能力已变更为自我改造！\n\n现在可以选择自我改造来替代升级奖励。从提高高阶单位出现率、强化精通和提高单位出现率中选择改造方向，并强化该方向的属性。\n\n首次改造时选定的方向在本次冒险中无法更改。\n\n初始技能也已从重铸变更为压制。"
+        },
+        "zh_TW": {
+          "title": "工程師英雄改版公告",
+          "body": "工程師的專屬能力已變更為自我改造！\n\n現在可以選擇自我改造來替代升級獎勵。從提高高階單位出現率、強化精通和提高單位出現率中選擇改造方向，並強化該方向的屬性。\n\n首次改造時選定的方向在本次冒險中無法更改。\n\n初始技能也已從重鑄變更為壓制。"
+        },
+        "de": {
+          "title": "Überarbeitung des Helden Ingenieur",
+          "body": "Die einzigartige Fähigkeit des Ingenieurs wurde durch Selbstmodifikation ersetzt!\n\nBeim Stufenaufstieg kannst du nun Selbstmodifikation statt einer Belohnung wählen. Entscheide dich für höherstufige Einheiten, Meisterung oder Erscheinungsraten und verbessere einen Wert innerhalb dieses Pfads.\n\nDer bei der ersten Modifikation gewählte Pfad bleibt für den gesamten Durchlauf festgelegt.\n\nAuch die Startfähigkeit wurde von Umschmieden zu Unterdrückung geändert."
+        },
+        "fr": {
+          "title": "Refonte du héros Ingénieur",
+          "body": "La capacité unique de l’Ingénieur devient l’automodification !\n\nVous pouvez désormais choisir l’automodification à la place d’une récompense de niveau. Choisissez une voie axée sur les unités de grade supérieur, la maîtrise ou la fréquence d’apparition et améliorez une statistique de cette voie.\n\nLa voie choisie lors de la première modification reste fixe pour toute l’aventure.\n\nLa compétence de départ passe également de Refonte à Suppression."
+        },
+        "es": {
+          "title": "Cambios al héroe Ingeniero",
+          "body": "¡La habilidad única del Ingeniero ahora es Automodificación!\n\nAhora puedes elegir Automodificación en lugar de una recompensa al subir de nivel. Elige una vía centrada en unidades de grado superior, dominio o frecuencia de aparición y mejora un atributo de esa vía.\n\nLa vía elegida en la primera modificación se mantiene durante toda la aventura.\n\nLa habilidad inicial también ha cambiado de Reforjar a Supresión."
         }
-      }
+      },
+      "min_version": "1.0.42"
     }
   ]
 }
