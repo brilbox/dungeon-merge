@@ -62,12 +62,12 @@
       "locales": {
         "en": {
           "title": "Engineer Hero Rework",
-          "body": "The Engineer’s unique ability has been changed to Self Modification!\n\nYou can now choose Self Modification instead of a reward when leveling up. Choose a path focused on higher tier units, mastery or spawn rates and improve a stat within that path.\n\nThe path chosen during your first modification stays fixed for the rest of the run.\n\nThe starting skill has also changed from Reforge to Suppress."
+          "body": "The Engineer’s unique ability has been changed to Self Modification!\n\nYou can now choose Self Modification instead of a reward when leveling up. Choose a path focused on higher tier units, mastery or spawn rates and improve a stat within that path.\n\nThe path chosen during your first modification stays fixed for the rest of the run.\n\nThe starting skill has also changed from Reforge to Suppress.",
+          "image": "https://raw.githubusercontent.com/brilbox/dungeon-merge/main/images/engineer_selfModification.png"
         },
         "ko": {
           "title": "공학자 영웅 개편 안내",
-          "body": "공학자의 고유 능력이 자기개조로 변경되었습니다!\n\n레벨업 보상 대신 자기개조를 선택할 수 있습니다. 상위 유닛 증가와 숙련도 증가 그리고 등장 확률 증가 중 방향을 정하고 해당 분야의 능력치를 강화하세요.\n\n첫 개조에서 선택한 방향은 이번 모험 동안 유지됩니다.\n\n시작 스킬도 재련에서 억제로 변경되었습니다.",
-          "image": "https://raw.githubusercontent.com/brilbox/dungeon-merge/main/images/engineer_selfModification.png"
+          "body": "공학자의 고유 능력이 자기개조로 변경되었습니다!\n\n레벨업 보상 대신 자기개조를 선택할 수 있습니다. 상위 유닛 증가와 숙련도 증가 그리고 등장 확률 증가 중 방향을 정하고 해당 분야의 능력치를 강화하세요.\n\n첫 개조에서 선택한 방향은 이번 모험 동안 유지됩니다.\n\n시작 스킬도 재련에서 억제로 변경되었습니다."
         },
         "ja": {
           "title": "英雄エンジニアの性能変更のお知らせ",
