@@ -47,6 +47,54 @@
           "body": "¡Descubre nuevas estrategias con reglas que cambian cada semana y supera tu mejor marca!\n\n- Nuevo Desafío semanal\nSupera Grandes pactos y Pruebas que cambian cada semana, y compite con otros aventureros por la mejor marca. Completa la Campaña normal una vez para participar.\n\n- La aventura continúa en el Combate infinito\nTras superar la última región de un Desafío, comienza el Combate infinito. ¡Hazte más fuerte, prepárate entre combates y descubre cuánto tiempo puedes sobrevivir!\n\n- Aventuras más cortas e intensas\nCada región ahora consta de 10 pisos normales y un piso de jefe. También hemos ajustado los mazos iniciales y la progresión.\n\n- Campaña y Desafío con partidas separadas\nInicia un Desafío sin perder tu Campaña en curso. Guarda y retoma cada aventura por separado.\n\n- Nuevas habilidades y mejoras\nHemos añadido «Milagro dorado» y «Préstamo de maná». También hemos ajustado el equilibrio de varias habilidades y eventos, mejorado los controles de combate y la información en pantalla, y aumentado la estabilidad al reanudar partidas e iniciar sesión.\n\n¡Visita el vestíbulo y descubre el nuevo Desafío!"
         }
       }
+    },
+    {
+      "id": "notice-20261011034253",
+      "revision": 1,
+      "attention_revision": 1,
+      "published_at": "2026-10-11T03:42:53Z",
+      "enabled": true,
+      "priority": 0,
+      "display_policy": "require_ack",
+      "frequency": "session",
+      "featured": false,
+      "platforms": [],
+      "locales": {
+        "en": {
+          "title": "Engineer Hero Rework",
+          "body": "The Engineer’s unique ability has been changed to Self Modification!\n\nYou can now choose Self Modification instead of a reward when leveling up. Choose a path focused on higher tier units, mastery or spawn rates and improve a stat within that path.\n\nThe path chosen during your first modification stays fixed for the rest of the run.\n\nThe starting skill has also changed from Reforge to Suppress.",
+          "image": "https://raw.githubusercontent.com/brilbox/dungeon-merge/main/images/engineer_selfModification.png"
+        },
+        "ko": {
+          "title": "공학자 영웅 개편 안내",
+          "body": "공학자의 고유 능력이 자기개조로 변경되었습니다!\n\n레벨업 보상 대신 자기개조를 선택할 수 있습니다. 상위 유닛 증가와 숙련도 증가 그리고 등장 확률 증가 중 방향을 정하고 해당 분야의 능력치를 강화하세요.\n\n첫 개조에서 선택한 방향은 이번 모험 동안 유지됩니다.\n\n시작 스킬도 재련에서 억제로 변경되었습니다."
+        },
+        "ja": {
+          "title": "英雄エンジニアの性能変更のお知らせ",
+          "body": "エンジニアの固有能力が自己改造に変更されました！\n\nレベルアップ報酬の代わりに自己改造を選べるようになりました。上位ユニットの出現率向上、熟練度の強化、出現率の向上から改造方針を選び、その方針の能力値を強化しましょう。\n\n最初の改造で選んだ方針は、その冒険の間は変更できません。\n\n初期スキルも再錬から抑制に変更されました。"
+        },
+        "zh_CN": {
+          "title": "工程师英雄调整公告",
+          "body": "工程师的专属能力已变更为自我改造！\n\n现在可以选择自我改造来替代升级奖励。从提高高阶单位出现率、强化精通和提高单位出现率中选择改造方向，并强化该方向的属性。\n\n首次改造时选定的方向在本次冒险中无法更改。\n\n初始技能也已从重铸变更为压制。"
+        },
+        "zh_TW": {
+          "title": "工程師英雄改版公告",
+          "body": "工程師的專屬能力已變更為自我改造！\n\n現在可以選擇自我改造來替代升級獎勵。從提高高階單位出現率、強化精通和提高單位出現率中選擇改造方向，並強化該方向的屬性。\n\n首次改造時選定的方向在本次冒險中無法更改。\n\n初始技能也已從重鑄變更為壓制。"
+        },
+        "de": {
+          "title": "Überarbeitung des Helden Ingenieur",
+          "body": "Die einzigartige Fähigkeit des Ingenieurs wurde durch Selbstmodifikation ersetzt!\n\nBeim Stufenaufstieg kannst du nun Selbstmodifikation statt einer Belohnung wählen. Entscheide dich für höherstufige Einheiten, Meisterung oder Erscheinungsraten und verbessere einen Wert innerhalb dieses Pfads.\n\nDer bei der ersten Modifikation gewählte Pfad bleibt für den gesamten Durchlauf festgelegt.\n\nAuch die Startfähigkeit wurde von Umschmieden zu Unterdrückung geändert."
+        },
+        "fr": {
+          "title": "Refonte du héros Ingénieur",
+          "body": "La capacité unique de l’Ingénieur devient l’automodification !\n\nVous pouvez désormais choisir l’automodification à la place d’une récompense de niveau. Choisissez une voie axée sur les unités de grade supérieur, la maîtrise ou la fréquence d’apparition et améliorez une statistique de cette voie.\n\nLa voie choisie lors de la première modification reste fixe pour toute l’aventure.\n\nLa compétence de départ passe également de Refonte à Suppression."
+        },
+        "es": {
+          "title": "Cambios al héroe Ingeniero",
+          "body": "¡La habilidad única del Ingeniero ahora es Automodificación!\n\nAhora puedes elegir Automodificación en lugar de una recompensa al subir de nivel. Elige una vía centrada en unidades de grado superior, dominio o frecuencia de aparición y mejora un atributo de esa vía.\n\nLa vía elegida en la primera modificación se mantiene durante toda la aventura.\n\nLa habilidad inicial también ha cambiado de Reforjar a Supresión."
+        }
+      },
+      "min_version": "1.0.42"
     }
   ]
 }
