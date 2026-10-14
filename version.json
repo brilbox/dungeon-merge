@@ -1,13 +1,13 @@
 {
-  "min_version": "1.0.40",
-  "latest_version": "1.0.40",
+  "min_version": "1.0.42",
+  "latest_version": "1.0.42",
   
   "android": {
     "min_version": "1.0.42",
     "latest_version": "1.0.42"
   },
   "ios": {
-    "min_version": "1.0.40",
-    "latest_version": "1.0.40"
+    "min_version": "1.0.42",
+    "latest_version": "1.0.42"
   }
 }
