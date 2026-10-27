@@ -55,7 +55,7 @@
       "published_at": "2026-10-11T03:42:53Z",
       "enabled": true,
       "priority": 0,
-      "display_policy": "require_ack",
+      "display_policy": "manual",
       "frequency": "session",
       "featured": false,
       "platforms": [],
