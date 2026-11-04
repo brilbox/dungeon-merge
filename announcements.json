@@ -7,10 +7,10 @@
       "attention_revision": 1,
       "published_at": "2026-09-26T13:47:46Z",
       "enabled": true,
-      "priority": 100,
-      "display_policy": "require_ack",
+      "priority": 0,
+      "display_policy": "manual",
       "frequency": "session",
-      "featured": true,
+      "featured": false,
       "platforms": [],
       "locales": {
         "en": {
@@ -95,6 +95,54 @@
         }
       },
       "min_version": "1.0.42"
+    },
+    {
+      "id": "notice-20261104191930",
+      "revision": 1,
+      "attention_revision": 1,
+      "published_at": "2026-11-04T19:19:30Z",
+      "enabled": true,
+      "priority": 100,
+      "display_policy": "require_ack",
+      "frequency": "session",
+      "featured": false,
+      "platforms": [],
+      "locales": {
+        "en": {
+          "title": "Rogue and Technician Rework",
+          "body": "Update 1.0.50 brings new abilities to the Rogue and the Technician!\n\nRogue\n\nYou now steal the Attack of enemies you defeat with basic attacks. You keep the stolen Attack until the end of your next turn. Finish off a weakened enemy first, then use its strength to take on a tougher foe!\n\nOnce per shop, you can choose one item and try to steal it. Your chance of success has increased from 50% to 70%.\n\nYour starting skill has changed from Steal to Life Swap.\n\nTechnician\n\nAfter a basic melee attack, you now throw a spinning blade toward the last enemy in your chain. The blade deals 50% damage to every enemy in its path. Line up enemies beyond your chain to hit them too!\n\nYou can still cross your path once per chain. Crossing no longer restores mana or reduces skill costs.\n\nYour starting skill has changed from Shift to Teleport.",
+          "image": "https://raw.githubusercontent.com/brilbox/dungeon-merge/main/images/thief_technician_rework.png"
+        },
+        "ko": {
+          "title": "도적·기술자 영웅 개편 안내",
+          "body": "1.0.50 업데이트로 도적과 기술자의 고유 능력이 변경되었습니다!\n\n도적\n\n이제 기본 공격으로 적을 처치하면 그 적의 공격력을 훔칩니다. 훔친 공격력은 다음 내 턴이 끝날 때까지 유지됩니다. 약해진 적을 먼저 처치하고, 훔친 힘으로 더 강한 적을 노려보세요!\n\n상점에서는 상품 하나를 골라 한 번만 훔치기를 시도할 수 있습니다. 성공 확률은 50%에서 70%로 올랐습니다.\n\n시작 스킬은 훔치기에서 생명력 교환으로 변경되었습니다.\n\n기술자\n\n이제 기본 근거리 공격을 마치면 마지막으로 연결한 적을 향해 회전 칼날을 던집니다. 칼날은 직선 경로에 있는 모든 적에게 50% 피해를 줍니다. 연결하지 않은 적까지 한 줄에 들어오도록 조준해 보세요!\n\n교차 연결은 여전히 한 번 사용할 수 있습니다. 교차할 때 적용되던 마나 회복과 스킬 비용 감소 효과는 사라집니다.\n\n시작 스킬은 건너뛰기에서 순간이동으로 변경되었습니다."
+        },
+        "ja": {
+          "title": "盗賊・技術者のリニューアルのお知らせ",
+          "body": "バージョン1.0.50で、盗賊と技術者の固有能力が新しくなりました！\n\n盗賊\n\n通常攻撃で敵を倒すと、その敵の攻撃力を盗めるようになりました。盗んだ攻撃力は、次の自分のターンが終わるまで持続します。弱った敵を先に倒し、奪った力で強敵に挑みましょう！\n\n各商店で商品を1つ選び、1回だけ盗みを試みることができます。成功率は50%から70%に上がりました。\n\n初期スキルが「窃盗」から「生命力交換」に変更されました。\n\n技術者\n\n通常の近接攻撃の後、最後につないだ敵に向けて回転刃を投げるようになりました。回転刃は直進し、軌道上のすべての敵に50%のダメージを与えます。つないでいない敵も巻き込めるように狙いを定めましょう！\n\nこれまでどおり、1回の接続につき1度だけ経路を交差させることができます。交差時のマナ回復とスキルコスト減少の効果はなくなりました。\n\n初期スキルが「スキップ」から「テレポート」に変更されました。"
+        },
+        "zh_CN": {
+          "title": "盗贼与技师英雄改版公告",
+          "body": "在1.0.50版本中，盗贼与技师的专属能力迎来了更新！\n\n盗贼\n\n现在，用普通攻击击败敌人即可偷取其攻击力。偷来的攻击力会保留到你的下个回合结束。先击败虚弱的敌人，再借助偷来的力量挑战强敌吧！\n\n每家商店都可以挑选一件商品尝试偷窃，机会只有一次。成功率已从50%提升至70%。\n\n初始技能已由「偷窃」改为「生命交换」。\n\n技师\n\n现在，普通近战攻击结束后，你会朝最后连接的敌人投出旋转刀刃。刀刃沿直线飞出，对路径上的所有敌人造成50%的伤害。瞄准时，让未连接的敌人也落在刀刃的路径上吧！\n\n每次连线仍可交叉一次。交叉时不再恢复法力，也不再降低技能消耗。\n\n初始技能已由「跳过」改为「瞬间移动」。"
+        },
+        "zh_TW": {
+          "title": "盜賊與技師英雄改版公告",
+          "body": "在 1.0.50 版本中，盜賊與技師的專屬能力更新了！\n\n盜賊\n\n現在，用普通攻擊擊敗敵人就能偷取對方的攻擊力。偷來的攻擊力會保留到你的下個回合結束。先擊敗虛弱的敵人，再用偷來的力量挑戰強敵吧！\n\n每間商店都可以挑選一件商品嘗試竊取，機會只有一次。成功率已從 50% 提升至 70%。\n\n起始技能已從「竊取」改為「生命交換」。\n\n技師\n\n現在，普通近戰攻擊結束後，你會朝最後連接的敵人擲出旋轉刀刃。刀刃沿直線飛出，對路徑上的所有敵人造成 50% 的傷害。瞄準時，讓沒連到的敵人也落在刀刃的路徑上吧！\n\n每次連線仍可交叉一次。交叉時不再恢復魔力，也不再降低技能消耗。\n\n起始技能已從「跨越」改為「瞬間移動」。"
+        },
+        "de": {
+          "title": "Schurke und Techniker überarbeitet",
+          "body": "Mit Update 1.0.50 erhalten der Schurke und der Techniker neue Fähigkeiten!\n\nSchurke\n\nBesiegst du einen Gegner mit einem normalen Angriff, stiehlst du ihm seinen Angriffswert. Du behältst ihn bis zum Ende deines nächsten Zuges. Erledige zuerst einen geschwächten Gegner und nutze seine Stärke gegen einen mächtigeren Feind!\n\nIn jedem Laden kannst du einen Artikel auswählen und einmal versuchen, ihn zu stehlen. Die Erfolgschance ist von 50 % auf 70 % gestiegen.\n\nDeine Startfähigkeit wechselt von „Stehlen“ zu „Lebenstausch“.\n\nTechniker\n\nNach einem normalen Nahkampfangriff wirfst du eine rotierende Klinge auf den letzten Gegner in deiner Kette. Die Klinge fliegt geradeaus und fügt allen Gegnern in ihrer Flugbahn 50 % Schaden zu. Ziele so, dass du auch Gegner außerhalb deiner Kette triffst!\n\nDein Pfad darf sich weiterhin einmal pro Kette kreuzen. Eine Kreuzung stellt kein Mana mehr wieder her und senkt auch keine Fähigkeitskosten mehr.\n\nDeine Startfähigkeit wechselt von „Überspringen“ zu „Teleportation“."
+        },
+        "fr": {
+          "title": "Refonte du Voleur et du Technicien",
+          "body": "Avec la mise à jour 1.0.50, le Voleur et le Technicien découvrent de nouvelles capacités !\n\nVoleur\n\nVous volez désormais l’Attaque des ennemis que vous éliminez avec une attaque de base. Vous conservez l’Attaque volée jusqu’à la fin de votre prochain tour. Achevez d’abord un ennemi affaibli, puis servez-vous de sa force pour affronter un adversaire plus coriace !\n\nDans chaque boutique, vous pouvez choisir un article et tenter de le voler une seule fois. Vos chances de réussite passent de 50 % à 70 %.\n\nVotre compétence de départ passe de « Vol » à « Échange de vie ».\n\nTechnicien\n\nAprès une attaque de mêlée normale, vous lancez une lame tournoyante vers le dernier ennemi de votre chaîne. Elle file en ligne droite et inflige 50 % des dégâts à tous les ennemis sur sa trajectoire. Visez de façon à toucher aussi les ennemis en dehors de votre chaîne !\n\nVotre tracé peut toujours se croiser une fois par chaîne. Ce croisement ne rend plus de mana et ne réduit plus le coût des compétences.\n\nVotre compétence de départ passe de « Saut » à « Téléportation »."
+        },
+        "es": {
+          "title": "Renovación del Pícaro y del Técnico",
+          "body": "¡La actualización 1.0.50 trae nuevas habilidades para el Pícaro y el Técnico!\n\nPícaro\n\nAhora robas el Ataque de los enemigos que derrotas con ataques básicos. Conservas el Ataque robado hasta el final de tu próximo turno. ¡Acaba primero con un enemigo debilitado y usa su fuerza contra un rival más poderoso!\n\nEn cada tienda puedes elegir un artículo e intentar robarlo una sola vez. La probabilidad de éxito ha aumentado del 50 % al 70 %.\n\nTu habilidad inicial pasa de «Robar» a «Intercambio de vida».\n\nTécnico\n\nTras un ataque cuerpo a cuerpo normal, lanzas una hoja giratoria hacia el último enemigo de tu cadena. La hoja avanza en línea recta e inflige un 50 % de daño a todos los enemigos a su paso. ¡Apunta para alcanzar también a los que queden fuera de la cadena!\n\nEl recorrido de tu cadena puede seguir cruzándose una vez. Los cruces ya no restauran maná ni reducen el coste de las habilidades.\n\nTu habilidad inicial pasa de «Salto» a «Teletransporte»."
+        }
+      },
+      "min_version": "1.0.50"
     }
   ]
 }
