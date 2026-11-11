@@ -193,8 +193,8 @@
       "min_version": "1.0.51",
       "action": {
         "type": "open_shop",
-        "section_id": "hero_pack",
-        "product_id": "com.brilbox.dmerge.hero_unlock_pack"
+        "section_id": "dlc1",
+        "product_id": "com.brilbox.dmerge.dlc1"
       }
     }
   ]
